@@ -40,8 +40,7 @@ const CardSearch=()=>{
         .catch((e)=>setTypeErro("a"))}
         
     },[urlFetch])
-    console.log(typeErro)
-    console.log(msgErro)
+  
     return(
         <form onSubmit={handleSubmit(handleSubmitFunction)}>
             <div className="search">

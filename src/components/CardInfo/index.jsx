@@ -1,6 +1,5 @@
 import "./style.css"
 const CardInfo=({repo})=>{
-    console.log(repo)
     return(
         <>
             {repo.map((item, index)=>
