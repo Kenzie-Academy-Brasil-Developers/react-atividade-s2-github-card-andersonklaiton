@@ -1,0 +1,47 @@
+.inputRepo{
+    
+    width: 275px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+}
+.btnRepo{
+    height: 30px;
+    width: 120px;
+}
+.btnRepo{
+    margin: 10px auto;
+    border-radius: 10px;
+    background-color: blue;
+    color: white;
+    text-transform: uppercase;
+    cursor: pointer ;
+    border: none;
+}
+.search{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media only screen and (min-width:766px){
+    .inputRepo{
+        height: 50px;
+        border-radius: 10px 0 0 10px;
+        width: 380px;
+        font-size: 30px;
+        padding: 10px;
+        border: none;
+    }
+    .btnRepo{
+        height: 70px;
+        border-radius: 0 10px 10px 0;
+        width: 220px;
+        font-size: 30px;
+        padding: 10px;
+    }
+    .search{
+       flex-direction: row;
+    }
+}
